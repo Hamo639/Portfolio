@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 200px;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    background-color: beige;
+    align-items: center;
+
+    
+}
+.logo{
+    text-transform: uppercase;
+    color: blue;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+.navbar a{
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+    color: blue;
+}
+.navbar a:hover{
+    color: rgb(183, 106, 255);
+}
+section{
+    padding: 100px 200px;
+    
+}
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    background: url(WhatsApp\ Image\ 2023-12-20\ at\ 16.55.45_c80f643d\ \(1\).jpg) no-repeat ;
+background-size: cover;
+}
+.main h2{
+    font-size: 1.4em;
+    font-weight: 500;
+}
+.main h2 span{
+    display:inline-block;
+    margin-top: 10px;
+    font-size: 1.7em;
+    font-weight: 700;
+    color: blue;
+}
+.main h3{
+    margin-top: 4px;
+    margin-left: 10px;
+    font-weight: 700;
+    font-size: 1.8em;
+    letter-spacing: 1px;
+}
+.main-btn{
+    display: inline-block;
+    background-color:blue ;
+    border-radius: 15px;
+    
+    text-align: center;
+    color: beige;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-size: 1.1em;
+    padding:11px 16px ;
+    margin-top: 10px;
+    margin-bottom: 15px;
+transition: 0.7s ease;}
+.main-btn:hover{
+background-color: rgb(50, 50, 246);
+transform:scale(1.1) ;}
+
+
+.main-icon a{
+    padding-right: 25px;
+    font-size: 1.4em;
+    font-weight: 300;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    color: blue;
+    font-size: 1.8em;
+    font-weight: 700;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.card{
+    box-shadow: 0 5px 25px black;
+    margin: 30px;
+    padding: 30px;
+    border-radius: 15px;
+    transition: 0.7s ease;
+    text-align: center;
+    letter-spacing: 1px;
+
+}
+.card:hover{
+    transform:scale(1.1) ;}
+
+    .card h2{
+        color: blue;
+        font-size: 20px;
+        font-weight: 700;
+        margin: 10px;
+    }
+
+.icon{
+    font-size: 100px;
+    color: blue;
+    font-weight: 400;
+    text-align: center;
+}
+.project{
+    background-color:blanchedalmond ;
+     
+}
+.all-project{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card-project{
+    min-height: 10em;
+    width: 18em;
+    overflow: hidden;
+    margin: 20px;
+    border: 3px solid black;
+    border-radius: 15px;
+     margin: 20px 0px;
+     transition: 0.7s ease;
+}
+.card-project:hover{
+    transform: scale(1.1);
+}
+.card-project:hover .img-project{
+    opacity:0.6;
+}
+.all-project{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+.img-project img{
+    width: 100%;
+    height: 150px;
+}
+.p-project{
+    color: black;
+    margin: 5px;
+}
+.info-project p{
+    color: black;
+}
+.info-project{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+}
+.info-project a:hover{
+color: blue;
+}
+
+
